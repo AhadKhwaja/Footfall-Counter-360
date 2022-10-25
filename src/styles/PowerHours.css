@@ -1,0 +1,178 @@
+#power-hours {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  /* border-collapse: collapse; */
+  width: 96%;
+  margin: auto;
+  color: #596dd4;
+}
+
+#power-hours td,
+#power-hours th {
+  border: 1px solid #cbcbcb;
+  padding: 3px;
+  transition: 0.3s;
+}
+
+#power-hours td:hover {
+  background-color: #cbcbcb !important;
+  /* color: white !important; */
+}
+
+
+#power-hours tr {
+  text-align: center;
+}
+
+/* #power-hours tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+.day_pie {
+  position: relative;
+  background: white;
+  box-shadow: 0px 8px 19px -11px #c7c7c7;
+  border-radius: 10px;
+  height: 400px;
+  width: 158px;
+  margin: auto;
+  /* padding: 5px; */
+}
+
+.day_pie h3 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.power-hours_top3 {
+  position: relative;
+  top: -50px;
+}
+
+#power-hours th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  /* background: #596cd4; */
+  color: #596cd4;
+}
+
+.powerHour-container {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background: white;
+  height: 440px;
+  box-shadow: 0px 8px 19px -11px #c7c7c7;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width:450px) {
+  .powerHour-container {
+    overflow: scroll;
+
+  }
+}
+
+.table-container {
+  background: white;
+  width: 100%;
+  height: 26em;
+}
+
+.graph_title {
+  color: #596dd4;
+  transition: 0.5s;
+}
+
+.row-hour {
+  /* background: #596cd4; */
+  color: #596cd4;
+  font-weight: bold;
+}
+
+.tooltip_powerHours {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #596cd4;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.day_pie_content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+/* .td-data:hover{
+  transform: scale(1.04);
+} */
+
+/*           Dark Mode            */
+
+.powerHour-container-dark {
+  background: #2a3256;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  height: 440px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.graph_title_dark {
+  color: beige;
+  transition: 0.5s;
+}
+
+#power-hours-dark {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 96%;
+  margin: auto;
+  color: beige;
+}
+
+#power-hours-dark td:hover {
+  background-color: #2a3256 !important;
+  color: beige !important;
+}
+
+.table-container-dark {
+  background: #2a3256;
+  width: 100%;
+  height: 26em;
+  border-radius: 10px;
+  /* box-shadow: 0px 8px 19px -11px #c7c7c7; */
+}
+
+.row-hour-dark {
+  /* background: #596cd4; */
+  color: beige;
+  font-weight: bold;
+}
+
+.day_pie_dark {
+  position: relative;
+  background: #2a3256;
+  border-radius: 10px;
+  height: 55vh;
+  width: 23vh;
+  margin: auto;
+  padding: 5px;
+}
+
+#power-hours-dark td,
+#power-hours-dark th {
+  border: 1px solid #cbcbcb;
+  padding: 3px;
+  transition: 0.3s;
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
+  text-align: center;
+  color: beige;
+}

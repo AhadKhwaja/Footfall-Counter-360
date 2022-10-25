@@ -1,0 +1,291 @@
+.left {
+  position: relative;
+  width: 60%;
+  border-radius: 10px 0 0 10px;
+  background-color: white;
+  background-image: url("../public/bg_17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right {
+  width: 40%;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
+  position: relative;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  transition: 0.3s;
+  width: 65%;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.login_background {
+  background-image: url("../public/bg_17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(10px);
+  transform: scale(1.1);
+}
+.login_intro {
+  padding: 5px;
+  color: beige;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+.form_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form_login input[type="text"] {
+  width: 250px;
+  height: 30px;
+  color: black;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  background: linear-gradient(to right, #eb2f72, #c100bd 100%) left bottom
+    no-repeat;
+  background-size: 100% 2px;
+  border: none;
+}
+
+.form_login input[type="text"]:focus {
+  width: 250px;
+  height: 30px;
+  color: black;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  background: linear-gradient(to right, #eb2f72, #c100bd 100%) left bottom
+    no-repeat;
+  background-size: 100% 2px;
+  border: none;
+}
+.form_login input[type="password"] {
+  width: 250px;
+  height: 30px;
+  color: black;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  background: linear-gradient(to right, #eb2f72, #c100bd 100%) left bottom
+    no-repeat;
+  background-size: 100% 2px;
+  border: none;
+}
+.form_login input[type="password"]:focus {
+  width: 250px;
+  height: 30px;
+  color: black;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  background: linear-gradient(to right, #eb2f72, #c100bd 100%) left bottom
+    no-repeat;
+  background-size: 100% 2px;
+  border: none;
+}
+.login_button {
+  width: 260px;
+  height: 35px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  color: white;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, #eb2f72, #c100bd);
+}
+.alert_text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: red;
+  font-weight: bold;
+}
+#f_password {
+  color: black;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+#welcome {
+  color: beige;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-family: Arial black;
+}
+.login_text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.sign_in {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 700px) {
+  .login_background {
+    background-image: url("../public/bg_17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(10px);
+    transform: scale(1.1);
+  }
+  .sign_in {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .form_login input[type="text"] {
+    width: 150px;
+    height: 20px;
+    color: black;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    background: linear-gradient(to right, #eb2f72, #c100bd 100%) left bottom
+      no-repeat;
+    background-size: 100% 2px;
+    border: none;
+  }
+  .form_login input[type="password"] {
+    width: 150px;
+    height: 25px;
+    color: black;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    background: linear-gradient(to right, #eb2f72, #c100bd 100%) left bottom
+      no-repeat;
+    background-size: 100% 2px;
+    border: none;
+  }
+  .login_button {
+    width: 160px;
+    height: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    color: white;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #eb2f72, #c100bd);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .login_background {
+    background-image: url("../public/bg_17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(10px);
+    transform: scale(1.1);
+  }
+  .card {
+    box-shadow: none;
+    border-radius: 20px;
+    transition: 0.3s;
+    width: 100%;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+.left {
+  position: relative;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.right {
+  width: 40%;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign_in {
+  font-weight: bold;
+  font-size: 24px;
+  color: beige;
+}
+#f_password {
+  color: beige;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.alert_text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: beige;
+  font-weight: bold;
+}
+}

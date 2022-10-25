@@ -1,0 +1,105 @@
+
+.custom_tooltip_dark {
+  background: white;
+  width: 200px;
+  height: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.label_current_dark {
+  color: orange;
+}
+.label_prior_dark {
+  color: green;
+}
+
+.trafficGraphDark {
+  background: #2a3256;
+  height: 380px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.gender_graph_dark {
+  background: #2a3256;
+  height: 380px;
+  border-radius: 10px;
+  transition: 0.3s;
+  width: 800px;
+}
+.gender_graph_week_dark {
+  background: #2a3256;
+  height: 360;
+  border-radius: 10px;
+  transition: 0.3s;
+  width: 800px;
+}
+.pie_graph_dark {
+  position: relative;
+  background: #2a3256;
+  left: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  height: 380px;
+  display: flex;
+  width: 350px;
+  align-items: center;
+}
+.age_graph_dark {
+  background: #2a3256;
+  height: 460px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.graph_title_dark {
+  color: white;
+  transition: 0.3s;
+}
+.hourlyGraph_dark {
+  background: #2a3256;
+  padding-top: 5px;
+  border-radius: 10px;
+  height: 350px;
+}
+.allTimeHourlyGraph_dark {
+  background: #2a3256;
+  padding-top: 5px;
+  border-radius: 10px;
+  height: 350px;
+}
+#total_visitors_dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  text-align: center;
+  background: #2a3256;
+  border-radius: 10px;
+  width: 350px;
+  position: relative;
+  right: 0;
+  transition: 0.3s;
+}
+
+#visitors_heading_dark {
+  font-size: 25px;
+  font-weight: bold;
+  color: beige;
+  padding: 10px;
+  transition: 0.3s;
+}
+#visitors_subHeading_dark {
+  font-size: 20px;
+  font-weight: bold;
+  color: #596dd4;
+  transition: 0.3s;
+}
+
+#visitor_subsubHeading_dark {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px;
+  color: #bbbbbb;
+}

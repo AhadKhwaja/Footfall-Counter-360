@@ -1,0 +1,143 @@
+.time-period-container {
+  grid-column-end: 3;
+  text-align: right;
+  margin-top: 21px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+}
+@media only screen and (max-width: 450px) {
+  .time-period-container {
+    grid-column-end: 1/2;
+  }
+}
+.date_range {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  /* box-shadow: 0px 92px 146px -110px black; */
+  display: flex;
+  flex-direction: column;
+}
+.date_text {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.select-date {
+  border-radius: 10px;
+  color: #596cd4;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  z-index: 1;
+  transition: 0.3s;
+  background: white;
+  cursor: pointer;
+}
+
+.select-date:hover {
+ box-shadow: 0px 3px 8px 2px #534cb3;
+ transform: translate(0px,-3px);
+}
+
+.current:hover {
+  background: linear-gradient(to right, rgb(90, 110, 212), rgb(120, 95, 222));
+  color: white;
+}
+.prior:hover {
+  background: linear-gradient(to right, rgb(90, 110, 212), rgb(120, 95, 222));
+  color: white;
+}
+.select-date:focus {
+  outline: none;
+}
+.toggle_datepicker {
+  display: flex;
+}
+.toggle_datepicker button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  color: #2a3256;
+  font-weight: bold;
+  font-size: 16px;
+}
+.toggle_datepicker button:focus {
+  outline: none;
+}
+#selected_c {
+  background: linear-gradient(to right, rgb(90, 110, 212), rgb(120, 95, 222));
+  color: white;
+  border: 1px solid white;
+}
+#selected_p {
+  background: linear-gradient(to right, rgb(90, 110, 212), rgb(120, 95, 222));
+  color: white;
+  border: 1px solid white;
+}
+
+/*           DARK MODE           */
+.select-date-dark {
+  border-radius: 10px;
+  color: beige;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  z-index: 1;
+  transition: 0.3s;
+  background: #2a3256;
+  cursor: pointer;
+}
+
+.select-date-dark:hover {
+  box-shadow: 0px 3px 8px 2px #16182d;
+  transform: translate(0px,-3px);
+ }
+
+.date_text_dark {
+  color: beige;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.current_dark:hover {
+  background: #2a3256;
+  color: white;
+}
+.prior_dark:hover {
+  background: #2a3256;
+  color: white;
+}
+.date_range_dark {
+  position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    box-shadow: 0px 92px 146px -110px black;
+    display: flex;
+    flex-direction: column;
+}
+#selected_c_dark {
+  background: #2a3256;
+  color: white;
+}
+#selected_p_dark {
+  background: #2a3256;
+  color: white;
+}
